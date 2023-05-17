@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardTasks</title>
+    <link rel="stylesheet" href="BoardTasks.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+
+<body>
+    <h2 id="board">My Task Board</h2>
+    <div id="form">
+        <div class="inputs">
+            <label for="task">Task:</label>
+            <textarea name="Task" id="task" cols="40" rows="5"></textarea>
+            <br/>
+            <label for="date">Date:</label>
+            <input type="date" name="Date" id="date" class="input">
+            <br/>
+            <label for="time">Time:</label> <input type="time" name="Time" id="time" class="input">
+        </div>
+        <div class="btn">
+            <button id="reset">reset</button>
+            <button id="add">add</button>
+        </div>
+        <br/>
+        <label id="error"></label>
+    </div>
+    <div class="tasks">
+        <!-- <div class="noteBox">
+            <button class="button">X</button>
+            <div class="note">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ut id fugiat, deserunt quidem nulla dolorum ducimus pariatur repellendus cupiditate vitae iste maxime atque laborum, magni doloremque laudantium dolore!
+            </div>
+            <div class="date">22/03/2020</div>
+            <div class="time">20:35:22</div>
+        </div> -->
+    </div>
+    <script src="BoardTasks.js"></script>
+</body>
+
+</html>
